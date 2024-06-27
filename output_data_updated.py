@@ -1,9 +1,5 @@
 import pandas as pd
 
-pd.set_option('display.max_columns', None)
-pd.set_option('display.width', None) 
-pd.set_option('display.max_rows', None)
-
 def load_csv(file_name):
     return pd.read_csv(file_name)
 
